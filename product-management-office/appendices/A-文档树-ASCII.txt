@@ -1,0 +1,345 @@
+; product-management-office 文档树快照
+; 版本: 0.12.0 | 日期: 2026-05-06 | 变更: **`27`～`36` 扩展支柱** 入树；§B **299** 行
+; 变更原因: CEO OS / 组织政治 / Finance / T&S / Truth / AI / Board / Tech Strategy / Global / Anti-fragility 与 **PM-15 `0.23.0`** 对齐
+;
+TravelTrust / product-management-office/
+|-- README.md
+|-- PM-MASTER-CHECKLIST-从入职到发布-企业级.md
+|-- PM-15天冲刺-每日5小时-全文件完成清单.md
+|-- 00-架构总览与多维干系人地图.md
+|-- 01-与工程-spec-SSOT-对齐契约.md
+|-- 02-系统联动规则与模块Impact-Map.md
+|-- _registry/
+|   |-- README.md
+|   |-- Day1-最小执行入口.md
+|   |-- 讲得清-团队表达层.md
+|   |-- 新需求-最小入口-模板.md
+|   |-- Day1-Owner-范围登记.md
+|   |-- 权限边界-强执行.md
+|   |-- 新成员上手路径-Day1-Day7-Day30.md
+|   |-- 违规记录.md
+|   |-- 执行检查清单-每日版.md
+|   |-- 规则绑定与执行责任.md
+|   |-- 反官僚原则.md
+|   |-- Office运行健康度-System-Health-周检.md
+|   |-- 版本登记与责任人模板.md
+|   |-- 系统交接-7日接管-Transferability-Runbook.md
+|   `-- D15-终检与冲刺总结.md
+|-- 01-strategy/
+|   |-- README.md
+|   |-- 00-产品愿景与边界-一页纸.md
+|   |-- 01-路线图与版本节奏-对齐-spec-53-07.md
+|   |-- 02-Strategy-Kill-Pivot与战略进化闭环.md
+|   `-- 03-战略决策日志-Trade-off-Decision-Log.md
+|-- 02-stakeholders/
+|   |-- README.md
+|   |-- 00-干系人全景矩阵-权力兴趣.md
+|   |-- 01-个人旅行者-C端.md
+|   |-- 02-向导与服务商-B端供给.md
+|   |-- 03-投资人-机构-LP.md
+|   |-- 04-区域与合作方.md
+|   |-- 05-监管合规与法务接口.md
+|   |-- 06-社区与媒体.md
+|   |-- 07-内部工程与运维.md
+|   |-- 08-决策权力边界-DACI-RAPID-RACI与通知矩阵.md
+|   `-- 09-扩展干系人-数据支付保险政府-T&S-占位.md
+|-- 03-discovery/
+|   |-- README.md
+|   |-- 00-问题定义与假设日志.md
+|   `-- 01-用户研究清单.md
+|-- 04-definition/
+|   |-- README.md
+|   |-- 00-PRD-最小结构模板.md
+|   `-- 01-需求池与Epic对齐-spec-入口.md
+|-- 05-go-to-market/
+|   |-- README.md
+|   |-- 00-对外叙事与材料门禁-082-084-08-4.md
+|   `-- 01-投资人材料-Data-Room-索引.md
+|-- 06-delivery-release/
+|   |-- README.md
+|   |-- 00-发布就绪桥接-spec-15-33-go-live.md
+|   |-- 01-质量与Bug分级-对齐-spec-34.md
+|   |-- 02-回滚与发布级事故剧本-Rollback-Incident-Playbook.md
+|   |-- 03-发布后观测窗口-SLO与产品告警.md
+|   `-- 04-非功能与体验门槛-产品契约占位.md
+|-- 07-metrics-growth/
+|   |-- README.md
+|   |-- 00-指标字典与埋点-对齐-spec-04.md
+|   |-- 01-增长与复盘节奏-对齐-product-manager.md
+|   |-- 02-经营漏斗阈值与Owner-执行表.md
+|   |-- 03-ICE评分填数-实验排期样例.md
+|   |-- 04-信任代理指标与NSM接口.md
+|   |-- 05-拟真实验全链路纸面推演×2.md
+|   |-- 06-财务对账闭环-链上GMV与收入口径.md
+|   |-- 07-预算到回报-增长ROI与回本模型.md
+|   |-- 08-数据质量-事件治理与指标异常解读.md
+|   `-- 09-单位经济-COGS变动成本与LTV衔接.md
+|-- 08-operations-pm/
+|   |-- README.md
+|   |-- 00-专业覆盖自检-补强登记与项目理解.md
+|   |-- 02-异步决策-RAID与知识连续性.md
+|   |-- audit/
+|   |   |-- README.md
+|   |   |-- 00-PM-System-Audit-Dashboard.md
+|   |   |-- 01-跨模块一致性审计-Consistency-Audit.md
+|   |   `-- 02-System-Health-Score-合成指标.md
+|   |-- cadence/
+|   |   |-- README.md
+|   |   `-- 00-Operating-Cadence-周月季战略.md
+|   `-- meetings/
+|       |-- README.md
+|       |-- 01-Meeting-OS-规则与会议绑定.md
+|       `-- 02-纪要质量闸-归档与稽核要点.md
+|-- 09-business-model/
+|   |-- README.md
+|   |-- 00-收入结构-佣金手续费增值服务.md
+|   |-- 01-GMV到Revenue转换路径.md
+|   |-- 02-单位经济模型-LTV-CAC.md
+|   |-- 03-多角色货币化-向导-旅行者-区域.md
+|   |-- 04-规模化假设-十国到全球.md
+|   |-- 05-现金流与商业闭环-用户到再投资.md
+|   |-- 06-Cash-Conversion-Loop现金转化闭环.md
+|   `-- 07-Revenue-Truth-Layer-链上真值与可分润.md
+|-- 10-growth-engine/
+|   |-- README.md
+|   |-- 00-从0到10万用户-总纲与里程碑.md
+|   |-- 01-冷启动与城市级模型.md
+|   |-- 02-双边市场策略-供给与需求.md
+|   |-- 03-推荐与裂变机制.md
+|   `-- 04-渠道矩阵-Web3-OTA-KOL.md
+|-- 11-capital-narrative/
+|   |-- README.md
+|   |-- 00-TAM-SAM-SOM-方法论与占位.md
+|   |-- 01-行业问题-Trust-Fraud-Payment.md
+|   |-- 02-解决方案与协议定位.md
+|   |-- 03-竞品与对标-Airbnb-GetYourGuide-Web3.md
+|   |-- 04-护城河-链上信誉与Escrow.md
+|   `-- 05-资本路径-Seed到Series-A.md
+|-- 12-org-scaling/
+|   |-- README.md
+|   |-- 00-城市扩张模型.md
+|   |-- 01-区域运营与Region-Steward-RACI.md
+|   |-- 02-成本结构-人力与获客.md
+|   |-- 03-KPI体系-业务与组织.md
+|   |-- 04-资源配置与预算流动-Org-Operating-Model.md
+|   `-- 05-Resource-Allocation-Board-资源分配板.md
+|-- 13-positioning-competition/
+|   |-- README.md
+|   |-- 00-Why-you-will-win-总纲.md
+|   |-- 01-竞品矩阵-Web2与Web3.md
+|   |-- 02-替代方案分析-OTA-本地导游-现金.md
+|   |-- 03-差异化-Escrow与链上信誉.md
+|   |-- 04-护城河拆解-技术-网络效应-合规.md
+|   `-- 05-Moat-Construction-System护城河建设.md
+|-- 14-ux-conversion/
+|   |-- README.md
+|   |-- 00-Traveler与Guide核心路径.md
+|   |-- 01-转化漏斗-Visit到Escrow.md
+|   |-- 02-信任设计-评价-担保-UI.md
+|   |-- 03-Web2到Web3-无感切换与桥接.md
+|   `-- 04-Onboarding-注册到首单.md
+|-- 15-data-decision/
+|   |-- README.md
+|   |-- 00-北极星与分层指标.md
+|   |-- 01-漏斗拆解与决策阈值.md
+|   |-- 02-AB测试机制与伦理门禁.md
+|   |-- 03-增长实验框架-ICE-RICE.md
+|   |-- 04-数据驱动迭代与会议节奏.md
+|   |-- 05-实验系统全流程-假设到决策.md
+|   `-- 06-实验台账与复盘模板.md
+|-- 16-regulation-risk/
+|   |-- README.md
+|   |-- 00-跨境金融旅游-Web3-风险组合总览.md
+|   |-- 01-KYC与AML-产品与工程锚点.md
+|   |-- 02-资金与Escrow合规叙事.md
+|   |-- 03-多国监管差异-占位矩阵.md
+|   |-- 04-风险预案-资金-欺诈-法律.md
+|   `-- 05-Legal-Sign-off-Layer-法律背书登记.md
+|-- 17-execution-roadmap/
+|   |-- README.md
+|   |-- 00-产品路线图-6到12个月.md
+|   |-- 01-里程碑-MVP-PMF-Scale.md
+|   |-- 02-优先级体系-P0-P1-P2.md
+|   |-- 03-资源规划-团队结构与容量.md
+|   `-- 04-与工程07-Wave的接口表.md
+|-- 18-operations-strategy/
+|   |-- README.md
+|   |-- 00-城市启动-0到100单.md
+|   |-- 01-Guide-招募体系.md
+|   |-- 02-Traveler-获取策略.md
+|   |-- 03-本地运营-SOP-模板.md
+|   |-- 04-与05及10的衔接.md
+|   |-- 05-ecosystem-ops-playbook-BD-周节奏与Pipeline.md
+|   |-- 06-岗位操作手册-今日任务-v1-BD-客服-运营.md
+|   `-- 07-JP-01-战场证据包与流动性指标.md
+|-- 19-risk-operations/
+|   |-- README.md
+|   |-- 00-运营风险总览与与16及Runbook分工.md
+|   |-- 01-资金异常-Escrow-RPC-失败.md
+|   |-- 02-争议处理-SOP-运营视角.md
+|   |-- 03-欺诈与风控-运营策略.md
+|   |-- 04-黑天鹅与用户投诉升级.md
+|   |-- 05-客服标准话术-v0.9-按场景.md
+|   `-- 06-高压工单与红队验证-SIM-CS-001-RED-RISK-001.md
+|-- 20-product-iteration/
+|   |-- README.md
+|   |-- 00-用户反馈收集与闭环.md
+|   |-- 01-迭代节奏-Sprint与Release-Train.md
+|   |-- 02-Feature优先级调整机制.md
+|   |-- 03-PM决策流程与升级路径.md
+|   |-- 04-路线到Sprint拆解-Epic-Feature-Story-Task.md
+|   |-- 05-Sprint人月估算与KPI绑定.md
+|   |-- 06-Sprint评审会六步脚本.md
+|   `-- 07-数据触发P0到产品回稳-闭环案例-GROWTH-ESCROW-001.md
+|-- 21-product-operating-system/
+|   |-- README.md
+|   |-- 00-产品原则-Product-Principles.md
+|   |-- 01-决策优先级规则-增长风控收入UX.md
+|   |-- 02-跨模块冲突解决与升级路径.md
+|   |-- 03-PM决策权边界-RACI.md
+|   |-- 04-统一优先级框架-RICE-ROI-战略权重.md
+|   |-- 05-决策引擎-Priority-Score-量化模型与系统驱动.md
+|   |-- 06-Incident-Response-Failure-Loop-异常响应.md
+|   |-- 07-决策复盘机制-Decision-Review.md
+|   |-- 08-Single-Thread-Owner-STO-最终责任人.md
+|   |-- 09-冲突实战记录-CONFLICT-001-增长vs风控.md
+|   |-- 10-决策引擎运行记录-PriorityScore-RUN-001.md
+|   `-- 11-Reality-Loop-现实闭环-索引.md
+|-- 22-executive-dashboard/
+|   |-- README.md
+|   |-- 00-北极星指标与唯一核心.md
+|   |-- 01-KPI树-公司产品功能-增长收入风控.md
+|   |-- 02-实时监控与告警-订单资金争议.md
+|   |-- 03-周月经营复盘与董事会材料.md
+|   |-- 04-北极星与全Office模块KPI绑定表.md
+|   |-- 05-KPI-Owner-Accountability-强绑定与Review.md
+|   |-- 06-周会模板-30min-会议执行版.md
+|   `-- 07-Real-Data-Injection-经营看板真值登记.md
+|-- 23-scaling-playbook/
+|   |-- README.md
+|   |-- 00-规模化复制总纲-何时复制什么.md
+|   |-- 01-城市启动包-可复制清单.md
+|   |-- 02-组织与成本包模板.md
+|   |-- 03-Handover培训与验收.md
+|   |-- 04-Scaling-Proof-第二城证据与VC问答.md
+|   `-- 05-City-B-真实跑通登记-Scaling-Proof-B.md
+|-- 24-brand-narrative/
+|   |-- README.md
+|   |-- 00-核心一句话-用户能理解.md
+|   |-- 01-品牌定位-Trust-Safety-Global.md
+|   |-- 02-用户心智占位与信任构建-尤其资金托管.md
+|   |-- 03-市场传播策略-PR-KOL-Web3社区.md
+|   `-- 04-用户认知验证-5到10人访谈包.md
+|-- 25-ecosystem-partnerships/
+|   |-- README.md
+|   |-- 00-生态总览-从闭环到网络.md
+|   |-- 01-OTA与平台合作.md
+|   |-- 02-Guide来源与本地机构-B端.md
+|   |-- 03-Web3生态-钱包-DID-Layer2.md
+|   |-- 04-支付与合规合作伙伴.md
+|   |-- 05-ecosystem-unit-economics-伙伴类型单位经济.md
+|   |-- 06-partner-progression-engine-Stage推进机制.md
+|   `-- 07-network-effect-flywheel-网络效应飞轮.md
+|-- 26-endgame-strategy/
+|   |-- README.md
+|   |-- 00-路径谱系与披露门禁.md
+|   |-- 01-IPO路径与上市公司叙事占位.md
+|   |-- 02-Token与协议价值路径-对齐治理叙事.md
+|   |-- 03-并购与战略买家情景.md
+|   |-- 04-网络效应终局与价值捕获.md
+|   |-- 05-ecosystem-risk-dashboard-集中度与依赖.md
+|   |-- 06-acquirer-map-买家逻辑与自建边界.md
+|   `-- 07-token-utility-binding-行为与代币绑定表.md
+|-- 27-ceo-operating-system/
+|   |-- README.md
+|   |-- 00-CEO-Weekly-Review-生死判断与一周节律.md
+|   |-- 01-Company-Narrative-Drift-愿景偏移侦测.md
+|   |-- 02-Founder-Decision-Log-做与不做.md
+|   |-- 03-Burn-Multiple-Tracking-一级市场口径.md
+|   |-- 04-Investor-Pressure-Handling-下轮融资预案.md
+|   `-- 05-Founder-Risk-Register-创始人风险.md
+|-- 28-org-politics-governance/
+|   |-- README.md
+|   |-- 00-权力冲突地图-Power-Conflict-Map.md
+|   |-- 01-激励错位表-Incentive-Misalignment.md
+|   |-- 02-Founder-Dependency-Index-创始人依赖度.md
+|   |-- 03-Bus-Factor-关键人单点.md
+|   `-- 04-Shadow-Decision-Mapping-影子决策.md
+|-- 29-finance-operating-system/
+|   |-- README.md
+|   |-- 00-Burn-Rate-Governance-现金消耗治理.md
+|   |-- 01-Treasury-Strategy-法币与稳定币库务.md
+|   |-- 02-Escrow-Treasury-Mapping-托管资金结构.md
+|   |-- 03-Runway-Simulation-存活周期.md
+|   |-- 04-Scenario-Planning-牛熊监管情景.md
+|   `-- 05-Revenue-Quality-Layer-收入质量.md
+|-- 30-trust-safety-command-center/
+|   |-- README.md
+|   |-- 00-High-Risk-Traveler-Playbook.md
+|   |-- 01-Guide-Ban-System-封禁与申诉.md
+|   |-- 02-Reputation-Recovery-信誉恢复.md
+|   |-- 03-Scam-Intelligence-欺诈情报.md
+|   |-- 04-Geo-Risk-Map-地理与国家风险.md
+|   `-- 05-Safety-Incident-War-Room-安全事故指挥.md
+|-- 31-truth-governance/
+|   |-- README.md
+|   |-- 00-Metric-Tampering-Detection-指标作弊.md
+|   |-- 01-Fake-GMV-Detection-虚假订单.md
+|   |-- 02-Incentive-Distortion-补贴扭曲.md
+|   |-- 03-Internal-Data-Trust-Score-内部数据可信度.md
+|   |-- 04-Manual-Override-Registry-人工改数登记.md
+|   `-- 05-Board-Data-Certification-董事会口径认证.md
+|-- 32-ai-operating-layer/
+|   |-- README.md
+|   |-- 00-AI-Agent-Responsibility-Matrix.md
+|   |-- 01-AI-Decision-Escalation.md
+|   |-- 02-AI-Hallucination-Risk.md
+|   |-- 03-AI-Human-Loop-人机闭环.md
+|   |-- 04-AI-Generated-Content-Policy.md
+|   `-- 05-AI-Experiment-Registry.md
+|-- 33-board-governance/
+|   |-- README.md
+|   |-- 00-Board-Resolution-Log-董事会决议.md
+|   |-- 01-Investor-Rights-Matrix-投资人权利.md
+|   |-- 02-Down-round-Protocol-下轮估值下降.md
+|   |-- 03-Crisis-Disclosure-Rules-危机披露.md
+|   |-- 04-Related-Party-Transactions-关联交易.md
+|   `-- 05-Governance-Risk-Register-治理风险.md
+|-- 34-technology-strategy/
+|   |-- README.md
+|   |-- 00-Build-vs-Buy-自研与外包.md
+|   |-- 01-Infra-Cost-Curve-基础设施成本.md
+|   |-- 02-Multi-chain-Strategy-多链策略.md
+|   |-- 03-Vendor-Lock-in-供应商锁定风险.md
+|   |-- 04-Security-Posture-安全姿态.md
+|   `-- 05-Reliability-Strategy-可用性战略.md
+|-- 35-globalization-system/
+|   |-- README.md
+|   |-- 00-Country-Readiness-Score-国家准入评分.md
+|   |-- 01-FX-Exposure-汇率风险.md
+|   |-- 02-Localization-Quality-本地化质量.md
+|   |-- 03-Cross-border-Tax-Matrix-跨境税务矩阵.md
+|   |-- 04-Political-Risk-Layer-政治风险.md
+|   `-- 05-Cultural-Failure-Cases-文化失败案例库.md
+|-- 36-anti-fragility-system/
+|   |-- README.md
+|   |-- 00-Platform-Collapse-Simulation-平台崩溃演练.md
+|   |-- 01-Liquidity-Death-Spiral-流动性死亡螺旋.md
+|   |-- 02-Bank-Run-Scenario-挤兑情景.md
+|   |-- 03-PR-Catastrophe-舆情灾难.md
+|   |-- 04-Founder-Exit-Scenario-创始人退出.md
+|   `-- 05-Regulatory-Shutdown-监管关停.md
+|-- 99-real-world-validation/
+|   |-- README.md
+|   |-- 00-验证总纲与证据标准.md
+|   |-- 01-Guide与Traveler可用性测试.md
+|   |-- 02-城市试点-1到2城.md
+|   |-- 03-GMV与单位经济验证.md
+|   |-- 04-转化率与漏斗验证-对齐14与15.md
+|   |-- 05-反馈贯穿全Office-flywheel.md
+|   |-- 06-Day15-终检与证据索引-DD就绪.md
+|   `-- evidence/
+|       `-- README.md
+`-- appendices/
+    |-- README.md
+    `-- A-文档树-ASCII.txt
