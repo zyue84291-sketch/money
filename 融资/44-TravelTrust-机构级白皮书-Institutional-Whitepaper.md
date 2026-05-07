@@ -3,7 +3,7 @@
 **文档性质**：面向 **一级市场（VC / 战略投资 / 家办）** 与 **机构级 DD** 的 **叙事 + 架构 + 合规边界** 总览；**非**证券发行文件、**非**代币发售要约。  
 **产品代号**：**TravelTrust**（与 `product-management-office/11-capital-narrative/02-解决方案与协议定位.md` 一致）。  
 **真值与工程规格**：以主仓库 **`TT-Expedition-docs/spec/`** 为 SSOT；经营数字以 **`09-business-model/00-收入结构-佣金手续费增值服务.md` §0** 为唯一对外牵引入口；本白皮书 **不重复发明数字**。  
-**版本**：`doc_version` **v0.9-institutional** · **As-of**：2026-05-07  
+**版本**：`doc_version` **v0.9.1-enterprise** · **As-of**：2026-05-08  
 
 ---
 
@@ -311,6 +311,14 @@
 | **Take Rate** | Net Revenue ÷ 同窗 GMV |
 | **SSOT** | Single Source of Truth，单一真值源 |
 | **DD** | Due Diligence，尽职调查 |
+
+---
+
+## 企业级维护说明（与融资夹骨架同步）
+
+- 各骨架文件（`01`～`09`、`10`～`22`、`37`～`43`）已增 **`## 企业级填充`** 段：为 **PM Office 可执行索引**，与本白皮书 **事实层同源**。  
+- **数字与比例**：仍以 **`09-business-model/00` §0**、**`11/06`**、**`spec/08-4`** 为唯一真值；Office 或 `spec/` 变更后，须 **bump 本文 `doc_version`** 并复查 **附录 A** 行是否仍准确。  
+- **新人 30 分钟入口**：`product-management-office/_registry/Day1-最小执行入口.md`；**主清单**：`PM-MASTER-CHECKLIST-从入职到发布-企业级.md`。
 
 ---
 

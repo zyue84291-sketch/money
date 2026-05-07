@@ -55,5 +55,23 @@
 
 ---
 
-**Owner**：待填（数据/ML + 产品）  
-**更新日期**：2026-05-07
+## 企业级填充（PM · 「AI 驱动」须可证伪）
+
+### 与 Office 目录对齐
+
+| 能力 | PM Office |
+|------|-----------|
+| 指标与埋点真值 | `07-metrics-growth/00` |
+| 实验与阈值 | `15-data-decision/README.md`（**≠ `spec/15`**） |
+| AI 责任矩阵 / 幻觉 | `32-ai-operating-layer/00-AI-Agent-Responsibility-Matrix.md`、`02-AI-Hallucination-Risk.md` |
+| 真值治理 / 防假 GMV | `31-truth-governance/` |
+
+### 机构叙述纪律
+
+- **「AI 驱动平台」** 须附：**单一指标仓库**、**事件 schema**、**至少 1 个线上实验 ID** 指向 **`15`**。  
+- **风控模型** 涉及用户权利时 → **Compliance** 与 **`16`** 同审。  
+
+---
+
+**Owner**：数据/ML + 产品负责人  
+**更新日期**：2026-05-08
