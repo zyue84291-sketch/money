@@ -2,12 +2,12 @@
 
 **用途**：融资 = **销售漏斗**——Outreach、会议、跟进、DD、Term Sheet **可度量、可交接**；Deck 只是漏斗顶端素材。
 
-## SSOT
+## 本包主入口
 
 | 主题 | 路径 |
 |------|------|
-| 对外材料顺序与门禁 | [`../TT-Expedition-docs/product-management-office/05-go-to-market/00-对外叙事与材料门禁-082-084-08-4.md`](../TT-Expedition-docs/product-management-office/05-go-to-market/00-对外叙事与材料门禁-082-084-08-4.md) |
-| Data Room 索引 | [`../TT-Expedition-docs/product-management-office/05-go-to-market/01-投资人材料-Data-Room-索引.md`](../TT-Expedition-docs/product-management-office/05-go-to-market/01-投资人材料-Data-Room-索引.md) |
+| 对外材料顺序与门禁 | [`09-材料门禁与核对清单-骨架.md`](./09-材料门禁与核对清单-骨架.md) |
+| Data Room 索引 | [`14-机构级-Data-Room-Index-骨架.md`](./14-机构级-Data-Room-Index-骨架.md) + **VDR 主索引** |
 
 ---
 
@@ -82,11 +82,11 @@
 
 - **First Call**：15 分钟公司 + 15 分钟问答；**禁止** 超范围承诺 Token/收入。  
 - **Partner**：提前 48h 发 agenda + **`15` Red flag** Top10 预演。  
-- **IC 前**：**`11/06`** + **`audit/01`** 必须绿或附 **书面例外**。
+- **IC 前**：**[`09`](./09-材料门禁与核对清单-骨架.md)** 数字对齐 + **跨材料一致性** 必须绿或附 **书面例外**。
 
 ### Q&A Log（单线程）
 
-- **Owner**：PM-O 或 CFO。  
+- **Owner**：COO 或 CFO。  
 - **合并**：DD 问卷与 **`15`** 条目 **同源**，避免两份答案。  
 
 ### 关账后切换
@@ -95,5 +95,5 @@
 
 ---
 
-**Owner**：CEO + PM-O（CRM）  
+**Owner**：CEO + COO（CRM）  
 **更新日期**：2026-05-08

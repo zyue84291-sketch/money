@@ -2,12 +2,12 @@
 
 **用途**：把「VC」拆成 **可执行的账户列表**——谁看 Travel、谁看 Infra、谁真能进 Web3 条款；避免 **拿 Travel 叙事撞纯 Infra 基金**。
 
-## SSOT
+## 本包主入口
 
 | 主题 | 路径 |
 |------|------|
-| 生态与战略伙伴叙事 | [`../TT-Expedition-docs/product-management-office/25-ecosystem-partnerships/`](../TT-Expedition-docs/product-management-office/25-ecosystem-partnerships/) |
-| 资本叙事（对外一句话要随对象切换） | [`../TT-Expedition-docs/product-management-office/11-capital-narrative/`](../TT-Expedition-docs/product-management-office/11-capital-narrative/) |
+| 生态与战略伙伴叙事 | [`05-生态与终局-骨架.md`](./05-生态与终局-骨架.md) |
+| 资本叙事（对外一句话要随对象切换） | [`03-市场定位与护城河-骨架.md`](./03-市场定位与护城河-骨架.md) · [`10-融资策略层-Fundraising-Strategy-骨架.md`](./10-融资策略层-Fundraising-Strategy-骨架.md) |
 
 ---
 
@@ -20,7 +20,7 @@
 | Web3 / Crypto 原生基金 | 协议设计、代币经济学、链上指标、安全、监管口径 | `07`、`13`、`15` |
 | Travel Tech / OTA 产业 | 供给、转化、复购、线下运营、单位经济 | `02`、`08` |
 | AI 基金 | 模型/数据飞轮、护城河、成本曲线 | `03`、`07` |
-| 战略投资方（Corp Dev） | 协同、排他、数据、市场进入 | `05`、`25` |
+| 战略投资方（Corp Dev） | 协同、排他、数据、市场进入 | `05`、`14` |
 | 家办（Family Office） | 下行保护、条款简洁、叙事信任、节奏 | `10`、`16` |
 
 - [ ] **每类至少 3 家** 已建档（见 §5），非泛泛「Web3 都见」  
@@ -68,21 +68,21 @@
 
 ---
 
-## 企业级填充（PM · TravelTrust 典型账户类型）
+## 企业级填充（TravelTrust 典型账户类型）
 
 ### 消息—材料—数据 三联（避免「一套 Deck 打天下」）
 
 | 基金类型 | 开场 3 句应落在 | 必附材料/数据 |
 |----------|-----------------|---------------|
 | **Web3 / Protocol** | 状态机、多签、审计、`spec/10` 不变量 | `07`、`38`、`13`、`43` |
-| **Travel Tech** | 供给、完成率、争议率、单位经济 | `09`、`14`、`18/ops` |
-| **AI** | 决策/风控 Agent RACI、幻觉控制 | `32-ai-operating-layer/00`、`39` |
-| **战略/Corp** | 渠道协同、数据、排他边界 | `25`、`26/06` |
-| **家办** | 下行、条款简洁、Runway | `10`、`18`、`16/00` |
+| **Travel Tech** | 供给、完成率、争议率、单位经济 | `09`、`14`、`18` |
+| **AI** | 决策/风控 Agent RACI、幻觉控制 | `39` |
+| **战略/Corp** | 渠道协同、数据、排他边界 | `05`、`14` |
+| **家办** | 下行、条款简洁、Runway | `10`、`18`、`16` |
 
-### 与 `25` 生态 Pipeline 对齐
+### 与 **生态 Pipeline** 对齐
 
-- **战略投资人**：须同时在 **`25-ecosystem-partnerships`** Pipeline 有 **Stage** 与 **Owner**（见 **`18/05`**），避免「IR 名单」与「BD 名单」分裂。
+- **战略投资人**：须在 **[`05`](./05-生态与终局-骨架.md)** 与 CRM（**[`12`](./12-融资流程-Fundraising-Operations-骨架.md)**）中 **同窗** 维护 **Stage** 与 **Owner**，避免「IR 名单」与「BD 名单」分裂。
 
 ### 竞品基金投资组合（DD 前必查）
 
@@ -92,4 +92,4 @@
 ---
 
 **Owner**：CEO（名单 Owner）+ 增长协助维护  
-**更新日期**：2026-05-08
+**更新日期**：2026-05-09

@@ -6,8 +6,8 @@
 
 | 主题 | 路径 |
 |------|------|
-| 终局与价值捕获叙事 | [`../TT-Expedition-docs/product-management-office/26-endgame-strategy/`](../TT-Expedition-docs/product-management-office/26-endgame-strategy/) |
-| 合规与风险 | 主仓库 `16-regulation-risk/`、`spec` 中与证券/Token 相关章节 |
+| 终局与价值捕获叙事 | [`05-生态与终局-骨架.md`](./05-生态与终局-骨架.md) · [`16-退出与流动性-Exit-Liquidity-骨架.md`](./16-退出与流动性-Exit-Liquidity-骨架.md) |
+| 合规与风险 | [`06-合规与风险-DD-骨架.md`](./06-合规与风险-DD-骨架.md) · `spec` 中与证券/Token 相关章节（VDR 同步） |
 | 技术尽调（合约/多签） | [`07-技术尽调-骨架.md`](./07-技术尽调-骨架.md) |
 
 ---
@@ -67,7 +67,7 @@
 
 ### Token 叙事检查表（若适用）
 
-- [ ] **行为 × 须否 Token**：**`26-endgame-strategy/07-token-utility-binding`**  
+- [ ] **行为 × 须否 Token**：与 **[`05`](./05-生态与终局-骨架.md)**、**[`43`](./43-协议宏观治理-Protocol-Macro-Governance-骨架.md)** 及 VDR Legal **同窗**  
 - [ ] **披露门禁**：**`26/00`**；任何 **「上所/APY」** 须法务预批  
 - [ ] **链上解锁图** 与 **`spec/81`** 参数 **像素级一致**（或附差异说明）
 
