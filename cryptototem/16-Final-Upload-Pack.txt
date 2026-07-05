@@ -1,0 +1,115 @@
+TRAVELTRUST (TTG) — CRYPTOTOTEM SUBMISSION
+Version 13.0-final-gate | Architectural disclosure | Not an offer
+Contact: traveltrust.ir@gmail.com (project contact)
+
+================================================================================
+10-SECOND REVIEWER BLOCK (read first)
+================================================================================
+
+SYSTEM:   Travel matching app + USDC escrow protocol + TTG configuration votes — three separate systems.
+MONEY:    Trip funds = USDC through escrow only; TTG never used to pay.
+TOKEN:    TTG = vote weight on non-fund protocol settings only; not required for app use.
+BOUNDARY: Not an offer. TTG not deployed, not offered, not solicited. No claim on escrow.
+
+================================================================================
+THREE INDEPENDENT LAYERS
+================================================================================
+
+LAYER 1 — PRODUCT (Travel marketplace + service fulfillment system)
+  What it is:     Application for matching travelers with destination guides.
+  What it does:   Discovery, messaging, itinerary coordination, trip fulfillment.
+  What it is NOT: A payment system. A token platform. A fund custodian.
+  TTG role:       None. Product operates without TTG.
+
+LAYER 2 — PROTOCOL (USDC escrow + dispute + reputation engine)
+  What it is:     Planned on-chain settlement and record infrastructure.
+  What it does:   Lock, release, refund trip funds in USDC; dispute handling;
+                  reputation and identity records tied to protocol events.
+  What it is NOT: A token layer. A TTG settlement path. A mixed-asset custody system.
+  Asset:          USDC only for user trip funds.
+  TTG role:       None.
+
+LAYER 3 — TOKEN (TTG — governance only)
+  What it is:     Planned configuration vote token (not deployed).
+  What it does:   Vote on non-fund protocol settings: escrow policy version,
+                  dispute rule parameters.
+  What it is NOT: A payment token. An escrow asset. A product access key.
+                  A claim on escrow balances or trip payments. An offered or solicited token.
+  TTG role:       Configuration votes only. No financial function. No incentives.
+
+Rule: Three separate systems. No shared fund path. Symbol: TTG only.
+
+================================================================================
+FUND SEPARATION
+================================================================================
+
+User trip funds (only user fund layer):
+  Traveler --USDC--> Escrow contract --USDC--> Guide
+
+TTG (token layer only):
+  TTG --vote weight--> Non-fund protocol configuration proposals only
+
+Independence (explicit):
+  • USDC escrow is the only user trip fund layer.
+  • TTG is not used in any payment, deposit, lock, release, refund, or dispute step.
+  • TTG has no claim on escrow balances or trip payments.
+  • Product and protocol operate without TTG.
+  • No arrow connects TTG to user USDC in escrow.
+
+================================================================================
+DEPLOYMENT STATUS — TRUTH ONLY (read before "available")
+================================================================================
+
+NOT DEPLOYED:
+  Mainnet
+  USDC escrow (Sepolia and mainnet)
+  TTG token (Sepolia and mainnet)
+  On-chain vote module
+  Public production application
+
+AVAILABLE (non-production):
+  Sepolia test environment (Chain ID 11155111)
+  Demo video: demo/TravelTrust-Product-Demo-v1.3.mp4
+  Label: Closed Beta simulation only — not production — not on-chain escrow
+
+Verification:
+  Explorer: https://sepolia.etherscan.io
+  Escrow contract address published: none
+  TTG contract address published: none
+  Test tx 1: https://sepolia.etherscan.io/tx/0xad86bf07c1fad58989492b8ebe14f9512bbc8ad91019abb07127403e430a4d9b
+  Test tx 2: https://sepolia.etherscan.io/tx/0xab38ea7849e11dab449460b613083f074656736f08b8436f1e7d9396cf8afa1d
+  Note: Test txs are infrastructure test evidence (Apr 2026) — not production escrow.
+
+================================================================================
+DISCLOSURE
+================================================================================
+
+This submission describes intended system architecture only.
+It is not an offer or solicitation.
+TTG is not deployed, not offered, and not solicited.
+No public sale schedule exists.
+TTG parameters and deployment timing: not defined in this listing.
+
+Closed Beta does not demonstrate future scale.
+Materials may describe design ahead of deployment.
+Cross-border travel, payment, and token rules vary by jurisdiction.
+Smart contracts may contain defects.
+Consult qualified legal and tax advisors.
+
+================================================================================
+TEAM
+================================================================================
+
+Mingzhe Zhang — CEO / Co-founder
+Xiao Li — CTO / Co-founder
+Lei Chen — Head of Supply
+Wenyuan Zhao — Legal & Compliance Lead
+Legal entity name: available on request via project contact.
+
+================================================================================
+FOOTER
+================================================================================
+
+TravelTrust · TTG · Closed Beta · Sepolia testnet
+USDC escrow (user funds) · TTG configuration votes only · Three layers separate
+Architectural disclosure · Not an offer · traveltrust.ir@gmail.com
